@@ -3,17 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>API_KEY</key>
-	<string>AIzaSyDY4K5xc-0nuKpN5FSw2VBIOdgSVJGr4co</string>
+	<string>AIzaSyAqfDsFaNwyqyvxfkJLQJwscuXDXVh-Rsw</string>
 	<key>GCM_SENDER_ID</key>
-	<string>590625225178</string>
+	<string>804158616225</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>luchonic.DolarToArg</string>
 	<key>PROJECT_ID</key>
-	<string>dolartoarg</string>
+	<string>dolartoarg-13d8f</string>
 	<key>STORAGE_BUCKET</key>
-	<string>dolartoarg.appspot.com</string>
+	<string>dolartoarg-13d8f.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -25,6 +25,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:590625225178:ios:35b2ea6dae66ce806728e3</string>
+	<string>1:804158616225:ios:bc985da540a659ca6b36e0</string>
 </dict>
 </plist>
