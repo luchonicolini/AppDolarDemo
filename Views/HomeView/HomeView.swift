@@ -44,8 +44,6 @@ struct HomeView: View {
                             }
                         }
                         .animation(.easeInOut, value: networkManager.dolarData)
-                        
-                        
                     }
                 }
             }

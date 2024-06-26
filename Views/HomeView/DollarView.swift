@@ -10,7 +10,7 @@ import SwiftUI
 struct DollarView: View {
     
     let horizontalPadding: CGFloat = 30
-    let index: AppDolar.DolarDataModel
+    let index: DolarToArg.DolarDataModel
     
     // Tabla de colores mejorada
     let colorTable: [String: Color] = [

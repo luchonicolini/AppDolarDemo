@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ViewText: View {
-    let index: AppDolar.DolarDataModel
+    let index: DolarToArg.DolarDataModel
     let imagen: String
     let dollarValue: Double
     let convertToDollars: Bool

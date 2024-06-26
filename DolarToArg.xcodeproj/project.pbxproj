@@ -14,6 +14,18 @@
 		195DB5802C2C6CF900AB6C87 /* DolarToArgTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195DB57F2C2C6CF900AB6C87 /* DolarToArgTests.swift */; };
 		195DB58A2C2C6CF900AB6C87 /* DolarToArgUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195DB5892C2C6CF900AB6C87 /* DolarToArgUITests.swift */; };
 		195DB58C2C2C6CF900AB6C87 /* DolarToArgUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195DB58B2C2C6CF900AB6C87 /* DolarToArgUITestsLaunchTests.swift */; };
+		195DB59A2C2C6EA900AB6C87 /* DolarDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195DB5992C2C6EA900AB6C87 /* DolarDataModel.swift */; };
+		195DB59D2C2C6EC200AB6C87 /* DolarNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195DB59C2C2C6EC200AB6C87 /* DolarNetworkManager.swift */; };
+		195DB5A02C2C6F0200AB6C87 /* NetworkErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195DB59E2C2C6F0200AB6C87 /* NetworkErrorView.swift */; };
+		195DB5A72C2C6F1A00AB6C87 /* CustomSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195DB5A12C2C6F1A00AB6C87 /* CustomSegmentedControl.swift */; };
+		195DB5A82C2C6F1A00AB6C87 /* FormattedDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195DB5A22C2C6F1A00AB6C87 /* FormattedDate.swift */; };
+		195DB5A92C2C6F1A00AB6C87 /* Hashtags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195DB5A32C2C6F1A00AB6C87 /* Hashtags.swift */; };
+		195DB5AA2C2C6F1A00AB6C87 /* MainText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195DB5A42C2C6F1A00AB6C87 /* MainText.swift */; };
+		195DB5AB2C2C6F1A00AB6C87 /* ScaledMaskModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195DB5A52C2C6F1A00AB6C87 /* ScaledMaskModifier.swift */; };
+		195DB5B02C2C6F3700AB6C87 /* ConversionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195DB5AD2C2C6F3600AB6C87 /* ConversionView.swift */; };
+		195DB5B12C2C6F3700AB6C87 /* ViewText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195DB5AE2C2C6F3600AB6C87 /* ViewText.swift */; };
+		195DB5B52C2C6F4500AB6C87 /* DollarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195DB5B22C2C6F4500AB6C87 /* DollarView.swift */; };
+		195DB5B62C2C6F4500AB6C87 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195DB5B32C2C6F4500AB6C87 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +56,18 @@
 		195DB5852C2C6CF900AB6C87 /* DolarToArgUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DolarToArgUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		195DB5892C2C6CF900AB6C87 /* DolarToArgUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DolarToArgUITests.swift; sourceTree = "<group>"; };
 		195DB58B2C2C6CF900AB6C87 /* DolarToArgUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DolarToArgUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		195DB5992C2C6EA900AB6C87 /* DolarDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DolarDataModel.swift; sourceTree = "<group>"; };
+		195DB59C2C2C6EC200AB6C87 /* DolarNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DolarNetworkManager.swift; sourceTree = "<group>"; };
+		195DB59E2C2C6F0200AB6C87 /* NetworkErrorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkErrorView.swift; sourceTree = "<group>"; };
+		195DB5A12C2C6F1A00AB6C87 /* CustomSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSegmentedControl.swift; sourceTree = "<group>"; };
+		195DB5A22C2C6F1A00AB6C87 /* FormattedDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormattedDate.swift; sourceTree = "<group>"; };
+		195DB5A32C2C6F1A00AB6C87 /* Hashtags.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hashtags.swift; sourceTree = "<group>"; };
+		195DB5A42C2C6F1A00AB6C87 /* MainText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainText.swift; sourceTree = "<group>"; };
+		195DB5A52C2C6F1A00AB6C87 /* ScaledMaskModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaledMaskModifier.swift; sourceTree = "<group>"; };
+		195DB5AD2C2C6F3600AB6C87 /* ConversionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversionView.swift; sourceTree = "<group>"; };
+		195DB5AE2C2C6F3600AB6C87 /* ViewText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewText.swift; sourceTree = "<group>"; };
+		195DB5B22C2C6F4500AB6C87 /* DollarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DollarView.swift; sourceTree = "<group>"; };
+		195DB5B32C2C6F4500AB6C87 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +98,10 @@
 		195DB5622C2C6CF500AB6C87 = {
 			isa = PBXGroup;
 			children = (
+				195DB5AC2C2C6F2900AB6C87 /* Views */,
+				195DB5A62C2C6F1A00AB6C87 /* Componets */,
+				195DB59F2C2C6F0200AB6C87 /* NetworkError */,
+				195DB59B2C2C6EB100AB6C87 /* ViewModel */,
 				195DB56D2C2C6CF500AB6C87 /* DolarToArg */,
 				195DB57E2C2C6CF900AB6C87 /* DolarToArgTests */,
 				195DB5882C2C6CF900AB6C87 /* DolarToArgUITests */,
@@ -125,6 +153,70 @@
 				195DB58B2C2C6CF900AB6C87 /* DolarToArgUITestsLaunchTests.swift */,
 			);
 			path = DolarToArgUITests;
+			sourceTree = "<group>";
+		};
+		195DB5982C2C6E9E00AB6C87 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				195DB5992C2C6EA900AB6C87 /* DolarDataModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		195DB59B2C2C6EB100AB6C87 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				195DB5982C2C6E9E00AB6C87 /* Models */,
+				195DB59C2C2C6EC200AB6C87 /* DolarNetworkManager.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		195DB59F2C2C6F0200AB6C87 /* NetworkError */ = {
+			isa = PBXGroup;
+			children = (
+				195DB59E2C2C6F0200AB6C87 /* NetworkErrorView.swift */,
+			);
+			path = NetworkError;
+			sourceTree = "<group>";
+		};
+		195DB5A62C2C6F1A00AB6C87 /* Componets */ = {
+			isa = PBXGroup;
+			children = (
+				195DB5A12C2C6F1A00AB6C87 /* CustomSegmentedControl.swift */,
+				195DB5A22C2C6F1A00AB6C87 /* FormattedDate.swift */,
+				195DB5A32C2C6F1A00AB6C87 /* Hashtags.swift */,
+				195DB5A42C2C6F1A00AB6C87 /* MainText.swift */,
+				195DB5A52C2C6F1A00AB6C87 /* ScaledMaskModifier.swift */,
+			);
+			path = Componets;
+			sourceTree = "<group>";
+		};
+		195DB5AC2C2C6F2900AB6C87 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				195DB5B42C2C6F4500AB6C87 /* HomeView */,
+				195DB5AF2C2C6F3600AB6C87 /* ConversionView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		195DB5AF2C2C6F3600AB6C87 /* ConversionView */ = {
+			isa = PBXGroup;
+			children = (
+				195DB5AD2C2C6F3600AB6C87 /* ConversionView.swift */,
+				195DB5AE2C2C6F3600AB6C87 /* ViewText.swift */,
+			);
+			path = ConversionView;
+			sourceTree = "<group>";
+		};
+		195DB5B42C2C6F4500AB6C87 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				195DB5B22C2C6F4500AB6C87 /* DollarView.swift */,
+				195DB5B32C2C6F4500AB6C87 /* HomeView.swift */,
+			);
+			path = HomeView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +349,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				195DB5AA2C2C6F1A00AB6C87 /* MainText.swift in Sources */,
+				195DB5B62C2C6F4500AB6C87 /* HomeView.swift in Sources */,
 				195DB5712C2C6CF500AB6C87 /* ContentView.swift in Sources */,
+				195DB5AB2C2C6F1A00AB6C87 /* ScaledMaskModifier.swift in Sources */,
+				195DB5A02C2C6F0200AB6C87 /* NetworkErrorView.swift in Sources */,
+				195DB5B02C2C6F3700AB6C87 /* ConversionView.swift in Sources */,
+				195DB59A2C2C6EA900AB6C87 /* DolarDataModel.swift in Sources */,
 				195DB56F2C2C6CF500AB6C87 /* DolarToArgApp.swift in Sources */,
+				195DB5A92C2C6F1A00AB6C87 /* Hashtags.swift in Sources */,
+				195DB59D2C2C6EC200AB6C87 /* DolarNetworkManager.swift in Sources */,
+				195DB5B12C2C6F3700AB6C87 /* ViewText.swift in Sources */,
+				195DB5A82C2C6F1A00AB6C87 /* FormattedDate.swift in Sources */,
+				195DB5B52C2C6F4500AB6C87 /* DollarView.swift in Sources */,
+				195DB5A72C2C6F1A00AB6C87 /* CustomSegmentedControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
