@@ -26,6 +26,10 @@
 		195DB5B12C2C6F3700AB6C87 /* ViewText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195DB5AE2C2C6F3600AB6C87 /* ViewText.swift */; };
 		195DB5B52C2C6F4500AB6C87 /* DollarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195DB5B22C2C6F4500AB6C87 /* DollarView.swift */; };
 		195DB5B62C2C6F4500AB6C87 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195DB5B32C2C6F4500AB6C87 /* HomeView.swift */; };
+		195DB5BC2C2C8E6F00AB6C87 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 195DB5BB2C2C8E6F00AB6C87 /* FirebaseAnalytics */; };
+		195DB5BE2C2C8E7500AB6C87 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 195DB5BD2C2C8E7500AB6C87 /* FirebaseAnalyticsSwift */; };
+		195DB5C02C2CA13400AB6C87 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 195DB5BF2C2CA13400AB6C87 /* GoogleService-Info.plist */; };
+		195DB5C32C2CA37500AB6C87 /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = 195DB5C22C2CA37500AB6C87 /* GoogleMobileAds */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +72,7 @@
 		195DB5AE2C2C6F3600AB6C87 /* ViewText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewText.swift; sourceTree = "<group>"; };
 		195DB5B22C2C6F4500AB6C87 /* DollarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DollarView.swift; sourceTree = "<group>"; };
 		195DB5B32C2C6F4500AB6C87 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		195DB5BF2C2CA13400AB6C87 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +80,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				195DB5C32C2CA37500AB6C87 /* GoogleMobileAds in Frameworks */,
+				195DB5BE2C2C8E7500AB6C87 /* FirebaseAnalyticsSwift in Frameworks */,
+				195DB5BC2C2C8E6F00AB6C87 /* FirebaseAnalytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,6 +114,7 @@
 				195DB57E2C2C6CF900AB6C87 /* DolarToArgTests */,
 				195DB5882C2C6CF900AB6C87 /* DolarToArgUITests */,
 				195DB56C2C2C6CF500AB6C87 /* Products */,
+				195DB5BA2C2C8E6F00AB6C87 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,6 +131,7 @@
 		195DB56D2C2C6CF500AB6C87 /* DolarToArg */ = {
 			isa = PBXGroup;
 			children = (
+				195DB5BF2C2CA13400AB6C87 /* GoogleService-Info.plist */,
 				195DB56E2C2C6CF500AB6C87 /* DolarToArgApp.swift */,
 				195DB5702C2C6CF500AB6C87 /* ContentView.swift */,
 				195DB5722C2C6CF900AB6C87 /* Assets.xcassets */,
@@ -219,6 +229,13 @@
 			path = HomeView;
 			sourceTree = "<group>";
 		};
+		195DB5BA2C2C8E6F00AB6C87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -235,6 +252,11 @@
 			dependencies = (
 			);
 			name = DolarToArg;
+			packageProductDependencies = (
+				195DB5BB2C2C8E6F00AB6C87 /* FirebaseAnalytics */,
+				195DB5BD2C2C8E7500AB6C87 /* FirebaseAnalyticsSwift */,
+				195DB5C22C2CA37500AB6C87 /* GoogleMobileAds */,
+			);
 			productName = DolarToArg;
 			productReference = 195DB56B2C2C6CF500AB6C87 /* DolarToArg.app */;
 			productType = "com.apple.product-type.application";
@@ -307,6 +329,10 @@
 				Base,
 			);
 			mainGroup = 195DB5622C2C6CF500AB6C87;
+			packageReferences = (
+				195DB5B92C2C8DF500AB6C87 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				195DB5C12C2CA35D00AB6C87 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */,
+			);
 			productRefGroup = 195DB56C2C2C6CF500AB6C87 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -325,6 +351,7 @@
 			files = (
 				195DB5762C2C6CF900AB6C87 /* Preview Assets.xcassets in Resources */,
 				195DB5732C2C6CF900AB6C87 /* Assets.xcassets in Resources */,
+				195DB5C02C2CA13400AB6C87 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -700,6 +727,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		195DB5B92C2C8DF500AB6C87 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.28.1;
+			};
+		};
+		195DB5C12C2CA35D00AB6C87 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-mobile-ads.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		195DB5BB2C2C8E6F00AB6C87 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 195DB5B92C2C8DF500AB6C87 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		195DB5BD2C2C8E7500AB6C87 /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 195DB5B92C2C8DF500AB6C87 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		195DB5C22C2CA37500AB6C87 /* GoogleMobileAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 195DB5C12C2CA35D00AB6C87 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
+			productName = GoogleMobileAds;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 195DB5632C2C6CF500AB6C87 /* Project object */;
 }
